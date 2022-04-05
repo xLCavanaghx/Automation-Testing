@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Assignment 03</title>
+    <link rel="stylesheet" href="../main.css">
+    <script src="../script.js" type="text/javascript"></script>
+</head>
+    
+<body>
+    <!--Page Heading-->
+    <h1>Vehicle Sales</h1>
+
+<!--Order Form for the purchase of multiple products-->
+    <form id="orderForm" class="form" onsubmit="return placeOrder()">
+        <div id="infoForm">
+            
+          
+            
+        <label id="radio">
+            <input id="search" type="radio" name="searchSell">Search
+            <input id="sell" type="radio" name="searchSell">Sell
+        </label><br>
+            
+            
+            
+            
+            
+        <!--Label and text field for the First Name-->
+        <label for="firstName" class="customerInfo">First Name: </label>
+        <input type="text" name="firstName" class="field" id="firstName"><br>
+        
+        <!--Label and text field for the Last Name-->
+        <label for="LastName" class="customerInfo">Last Name: </label>
+        <input type="text" name="lastName" class="field" id="lastName"><br>
+        
+        <!--Label and text field for the Address-->
+        <label for="address" class="customerInfo">Address: </label>
+        <input type="text" name="address" class="field" id="address"><br>
+        
+        <!--Label and text field for the City-->
+        <label for="city" class="customerInfo">City: </label>
+        <input type="text" name="city" class="field" id="city"><br>
+        
+        <!--Label and text field for the Province-->
+        <label for="province" class="customerInfo">Province: </label>
+        <input type="text" name="province" class="field" id="province"><br>
+        
+        <!--Label and text field for the Postal Code-->
+        <label for="postalCode" class="customerInfo">Postal Code: </label>
+        <input type="text" name="postalCode" class="field" id="postalCode"><br>
+        
+        <!--Label and text field for the Phone-->
+        <label for="phone" class="customerInfo">Phone: </label>
+        <input type="text" name="phone" class="field" id="phone"><br>
+        
+        <!--Label and text field for the Email-->
+        <label for="email" class="customerInfo">Email: </label>
+        <input type="text" name="email" class="field" id="email"><br>
+        
+        <!--Label and text field for the Make-->
+        <label for="make" class="customerInfo">Make: </label>
+        <input type="text" name="make" class="field" id="make"><br>
+        
+        <!--Label and text field for the Model-->
+        <label for="model" class="customerInfo">Model: </label>
+        <input type="text" name="model" class="field" id="model"><br>
+        
+        <!--Label and text field for the Year-->
+        <label for="year" class="customerInfo">Year</label>
+        <input type="text" name="year" class="field" id="year"><br>
+        
+        <!--Button to submit the form and place the order.-->
+        <button type="submit" id="button">Submit</button>
+        </div>
+    </form>
+    
+    <!--Display for the Error Messages-->
+    <div id="error"></div>
+
+    <!--Display for the Output.-->
+    <div id="output"></div>  
+    
+    <!--Display for the Search Results.-->
+    <div id="results" href="index.html"></div>
+        
+</body>
+
+</html>

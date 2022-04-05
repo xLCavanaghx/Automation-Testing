@@ -1,0 +1,128 @@
+/* the styles for the elements */
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* the styles for the html */
+html {
+    background-color: lightslategray;    
+}
+
+/* the styles for the body */
+body {
+    border: 3px solid darkslateblue;
+    border-radius: 3px;
+    margin: 2% 30% 2% 30%;
+    background-color: aliceblue;
+    opacity: 90%
+}
+
+/* the styles for the maiin heading of the page */
+body h1 {
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom: 3px solid darkslateblue;
+    color: darkslateblue;
+    text-shadow: 1px 1px black;
+}
+
+#infoForm {
+    text-align: center;
+}
+/* the styles for the Customer Information labels labels */
+.customerInfo {
+    font-weight: 1000;
+    background-color: transparent;
+    color: darkslateblue;
+}
+
+/* the styles for the field labels */
+.field {
+    margin: 3px;
+    font-weight: 1000;
+    border-radius: 3px;
+    border-color: darkslateblue;
+    box-shadow: 1px 1px black;
+}
+
+/* the styles for the fields */
+#firstName {
+    margin-left: 1.75%;
+    margin-top: 8%;
+}
+#lastName {
+    margin-left: 2%;
+}
+#address {
+    margin-left: 5%;
+}
+#city {
+    margin-left: 9%;
+}
+
+#province {
+    margin-left: 4%;
+}
+
+#phone {
+    margin-left: 7%;
+}
+
+#email {
+    margin-left: 7%;
+}
+
+#make {
+    margin-left: 7.5%;
+}
+
+#model {
+    margin-left: 7%;
+}
+
+#year {
+    margin-left: 9.5%;
+}
+/* the styles for the Place Order button to submit the Order Form */
+#button {
+    margin-top: 5%;
+    font-weight: 1000;
+    color: gold;
+    background-color: darkslateblue;
+    border: 1px solid darkslateblue;
+    border-radius: 2px;  
+    box-shadow: 1px 1px black;
+}
+
+/* the styles for the Errors display */
+#error {
+    margin: 5%;
+    font-weight: 1000;
+    color: maroon;
+    background-color: transparent;
+    border:none;
+    text-align: center;
+}
+
+/* the styles for the Receipt display */
+#output {
+    /*border: 1px solid darkgoldenrod;*/
+    margin-top: %;
+    margin-right: 30%;
+    margin-bottom: 2%;
+    margin-left: 30%;
+    padding: 5%;
+    text-align: center;
+    font-weight: 1000;
+    color: darkslateblue;
+}
+
+#results {
+    margin-bottom: 5%;
+    text-align: center;
+    font-weight: 1000;
+    color: darkslateblue;
+}
